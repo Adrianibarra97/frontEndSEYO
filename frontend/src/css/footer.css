@@ -1,9 +1,9 @@
-.main-container {
+.footer-container {
     position:                           absolute;
-    top:                                0;
+    top:                                100%;
     left:                               0;
     width:                              100%;
-    height:                             100%;
+    height:                             15%;
+    background:                       rgba(118, 250, 9, 0.7);
     z-index:                            0;
-    background: #bbb;
 }

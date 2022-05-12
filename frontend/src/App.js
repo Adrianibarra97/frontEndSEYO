@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <NavBar/>
-      <div className="container p-4">
+      <main className="main-container">
         <Routes>
           <Route exact path='/' element={<Home/>} />
           <Route exact path='/production' element={<Production/>} />
@@ -22,7 +22,7 @@ function App() {
           <Route exact path='/musicians' element={<Musicians/>} />
           <Route exact path='/contact' element={<Contact/>} />
         </Routes>
-      </div>
+      </main>
       <Footer/>
     </BrowserRouter>
   );

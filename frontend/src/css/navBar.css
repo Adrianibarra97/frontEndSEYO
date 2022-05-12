@@ -1,0 +1,40 @@
+.navbar {
+    z-index: 900;
+}
+
+.navbar-brand {
+    display: block;
+}
+
+.navbar-collapse {
+    position: relative;
+    right: -115%;
+}
+
+@media screen and (min-device-width: 1051px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-collapse {
+        position: relative;
+        right: -100%;
+    }
+}
+
+@media screen and (min-device-width: 992px) and (max-device-width: 1050px) {
+    .navbar-brand {
+        display: none;
+    }
+
+    .navbar-collapse {
+        position: relative;
+        right: -90%;
+    }
+}
+
+@media screen and (max-device-width: 991px) {
+    .navbar-brand {
+        display: none;
+    }
+}
