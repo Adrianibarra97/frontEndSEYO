@@ -1,9 +1,125 @@
 .footer-container {
+    display:                            block;
     position:                           absolute;
     top:                                100%;
     left:                               0;
     width:                              100%;
-    height:                             15%;
-    background:                       rgba(118, 250, 9, 0.7);
+    height:                             40%;
+    background:                         radial-gradient(#fff, #777);
+    color:                            #000;
     z-index:                            0;
+}
+
+.footer-ul {
+    display:                            flex;
+    position:                           absolute;
+    top:                                35%;
+    left:                               35%;
+    height:                             25%;
+    width:                              30%;
+}
+
+.footer-link {
+    position:                           relative;
+    top:                                0;
+    left:                               0;
+    height:                             50%;
+    width:                              40%;
+    background:                       #111;
+    color:                            #fff;
+    margin:                             5% 2%;
+}
+
+.footer-link:hover {
+    background:                       #444;
+    height:                             55%;
+    width:                              45%;
+    transition:                         0.5s;
+}
+
+.footer-p {
+    display:                            flex;
+    position:                           absolute;
+    height:                             10%;
+    font-weight:                        bold;
+    justify-content:                    center;    
+    user-select:                        none;
+}
+
+.name {
+    font-size:                          1.1em;
+    border-bottom:                    #000 2px solid;
+}
+
+.pweb1 {
+    top:                                15%;
+    left:                               5%;
+}
+
+.pweb2 {
+    top:                                30%;
+    left:                               5%;
+}
+
+.pweb3 {
+    top:                                55%;
+    left:                               5%;
+}
+
+.pweb4 {
+    top:                                70%;
+    left:                               5%;
+}
+
+.pdev1 {
+    top:                                35%;
+    left:                               75%;
+}
+
+.pdev2 {
+    top:                                50%;
+    left:                               75%;
+}
+
+
+@media screen and (max-device-width: 991px) {
+    .footer-ul {
+        top:                                5%;
+        left:                               5%;
+        width:                              80%;
+    }
+
+    .footer-p {
+        height: auto;
+    }
+
+    .pweb1 {
+        top:                                40%;
+        left:                               5%;
+    }
+    
+    .pweb2 {
+        top:                                50%;
+        left:                               5%;
+    }
+    
+    .pweb3 {
+        top:                                70%;
+        left:                               5%;
+    }
+    
+    .pweb4 {
+        top:                                80%;
+        left:                               5%;
+    }
+    
+    .pdev1 {
+        top:                                40%;
+        left:                               45%;
+    }
+    
+    .pdev2 {
+        top:                                50%;
+        left:                               45%;
+    }
 }

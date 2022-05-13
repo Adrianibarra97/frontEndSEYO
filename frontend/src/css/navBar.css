@@ -1,40 +1,86 @@
 .navbar {
-    z-index: 900;
+    position:                           absolute;
+    top:                                0;
+    left:                               0;
+    width:                              100%;
+    height:                             7%;
+    z-index:                            900;
+}
+
+.nav-struct {
+    position:                           absolute;
+    top:                                0;
+    left:                               0;
+    width:                              100%;
+    height:                             100%;            
 }
 
 .navbar-brand {
-    display: block;
+    display:                            flex;
+    position:                           absolute;
+    top:                                0;
+    left:                               2%;
+    width:                              5%;
+    height:                             100%;
+    font-weight:                        bold;
+    justify-content:                    center;
 }
 
-.navbar-collapse {
-    position: relative;
-    right: -115%;
-}
-
-@media screen and (min-device-width: 1051px) {
-    .navbar-brand {
-        display: none;
-    }
-
-    .navbar-collapse {
-        position: relative;
-        right: -100%;
-    }
-}
-
-@media screen and (min-device-width: 992px) and (max-device-width: 1050px) {
-    .navbar-brand {
-        display: none;
-    }
-
-    .navbar-collapse {
-        position: relative;
-        right: -90%;
-    }
+.nav-struct-ul {
+    display:                            flex;
+    position:                           absolute;
+    top:                                0;
+    left:                               29%;
+    width:                              70%;
+    height:                             100%;
+    font-size:                          1.1em;
+    font-weight:                        bold;
+    justify-content:                    flex-end;
 }
 
 @media screen and (max-device-width: 991px) {
+    
+    .nav-struct {
+        position:                           absolute;
+        top:                                0;
+        left:                               0;
+        width:                              100%;
+        height:                             600%;
+        background:                         rgba(50, 50, 50, 0.9);            
+    }
+
+    .button-nav-2 {
+        position:                           absolute;
+        top:                                0;
+        left:                               0;
+        width:                              20%;
+        height:                             20%;
+        border:                             none;
+        font-size:                          2em;
+        font-weight:                        bold;
+        color:                              #fff;
+    }
+
     .navbar-brand {
-        display: none;
+        display:                            flex;
+        position:                           absolute;
+        top:                                5%;
+        left:                               75%;
+        width:                              20%;
+        height:                             20%;
+        font-weight:                        bold;
+        justify-content:                    center;
+    }
+
+    .nav-struct-ul {
+        display:                            flex;
+        position:                           absolute;
+        top:                                30%;
+        left:                               10%;
+        width:                              70%;
+        height:                             70%;
+        font-size:                          1.2em;
+        font-weight:                        bold;
+        justify-content:                    flex-end;
     }
 }
