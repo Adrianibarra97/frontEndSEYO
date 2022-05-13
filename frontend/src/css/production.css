@@ -1,0 +1,59 @@
+.production-container {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background: #222;
+    color: #fff;
+}
+
+.production-section {
+    position: absolute;
+    height: 25%;
+    width:  25%;
+    background-color: red;
+}
+
+.divSecP1 {
+    top: 20%;
+    left: 5%;
+}
+
+.divSecP2 {
+    top: 20%;
+    left: 35%;
+}
+
+.divSecP3 {
+    top: 20%;
+    left: 65%;
+}
+
+.divSecP4 {
+    top: 60%;
+    left: 5%;
+}
+
+.divSecP5 {
+    top: 60%;
+    left: 35%;
+}
+
+.divSecP6 {
+    top: 60%;
+    left: 65%;
+}
+
+.production-section-h2 {
+    
+    background-color: blue;
+}
+
+.production-section-p {
+
+    background-color: green;
+}
+
+
+@media screen and (max-device-width: 991px) {
+
+}
