@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import '../css/production.css';
 
 export class Production extends Component {
@@ -7,28 +6,112 @@ export class Production extends Component {
         return (
             <div className="production-container">
                 <div className="production-section divSecP1">
-                    <h2 className="production-section-h2">Titulo</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo1 Titulo1 Titulo1 Titulo1 Titulo1
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
                 <div className="production-section divSecP2">
-                    <h2 className="production-section-h2">Title1</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo2 Titulo2 Titulo2 Titulo2 Titulo2
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
                 <div className="production-section divSecP3">
-                    <h2 className="production-section-h2">Title1</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo3 Titulo3 Titulo3 Titulo3 Titulo3
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
                 <div className="production-section divSecP4">
-                    <h2 className="production-section-h2">Title1</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo4 Titulo4 Titulo4 Titulo4 Titulo4
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
                 <div className="production-section divSecP5">
-                    <h2 className="production-section-h2">Title1</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo5 Titulo5 Titulo5 Titulo5 Titulo5
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
                 <div className="production-section divSecP6">
-                    <h2 className="production-section-h2">Title1</h2>
-                    <p className="production-section-p">Description1</p>
+                    <div className="concealer"></div>
+                    <h2 className="production-section-h2">
+                        Titulo6 Titulo6 Titulo6 Titulo6 Titulo6
+                    </h2>
+                    <p className="production-section-p">
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                        askfasldfkjasdlfasldfasdfasdf
+                        asadsf
+                        dsfadfasdfasdflasdkfjasldfjaf
+                        añlsafjlasjflasjflasdfa
+                        asfjaflasdfjlkasjdflasjdflsaklj
+                    </p>
                 </div>
             </div>
         );

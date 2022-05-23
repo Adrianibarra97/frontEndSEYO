@@ -1,0 +1,147 @@
+.contact-container {
+    display:                            flex;
+    position:                           absolute;
+    top:                                0;
+    left:                               0;
+    height:                             100%;
+    width:                              100%;
+    background:                         url('../images/contact.webp');
+}
+
+.contact-div {
+    display:                            flex;
+    position:                           absolute;
+    top:                                10%;
+    left:                               10%;
+    height:                             85%;
+    width:                              80%;
+    background-color:                 rgba(14, 14, 14, 0.8);
+}
+
+.contact-form {
+    display:                            flex;
+    position:                           absolute;
+    top:                                25%;
+    left:                               10%;
+    height:                             65%;
+    width:                              80%;
+    background-color:                 rgba(14, 14, 14, 0.9);
+}
+
+.contact-h2 {
+    display:                            flex;
+    position:                           absolute;
+    top:                                6%;
+    left:                               25%;
+    height:                             10%;
+    width:                              50%;
+    font-size:                          3em;
+    justify-content:                    center;
+    color:                            rgb(255, 255, 255);
+}
+
+.contact-input {
+    display:                            flex;
+    position:                           absolute;
+    height:                             10%;
+    width:                              40%;
+    outline:                            none;
+    background-color:                   transparent;
+    color:                            rgb(102, 216, 61);
+    border-bottom:                      3px solid rgb(59, 167, 20);
+}
+
+.contact-input::placeholder {
+    color:                            rgb(59, 167, 20);
+}
+
+.i1 {
+    top:                                20%;
+    left:                               5%;
+}
+
+.i2 {
+    top:                                35%;
+    left:                               5%;
+}
+
+.i3 {
+    top:                                50%;
+    left:                               5%;
+}
+
+.contact-textarea {
+    display:                            flex;
+    position:                           absolute;
+    height:                             40%;
+    width:                              40%;
+    top:                                20%;
+    left:                               50%;
+    outline:                            none;
+    background-color:                   transparent;
+    color:                            rgb(102, 216, 61);
+    border-bottom:                      3px solid rgb(59, 167, 20);
+}
+
+.contact-textarea::placeholder {
+    color:                            rgb(59, 167, 20);
+}
+
+.contact-button {
+    display:                            flex;
+    position:                           absolute;
+    height:                             10%;
+    width:                              50%;
+    top:                                70%;
+    left:                               25%;
+    font-weight:                        bold;
+    align-items:                        center;
+    justify-content:                    center;
+    background-color:                 rgb(59, 167, 20);
+}
+
+.contact-button:hover {
+    background-color:                 rgb(152, 244, 118);
+    transition-duration:                1.5s;
+}
+
+@media screen and (max-device-width: 991px) {
+    .contact-form {
+        height:                             75%;
+        top:                                20%;
+    }
+    
+    .contact-input {
+        height:                             7%;
+        width:                              70%;
+    }
+
+    .i1 {
+        top:                                10%;
+        left:                               10%;
+    }
+    
+    .i2 {
+        top:                                25%;
+        left:                               10%;
+    }
+    
+    .i3 {
+        top:                                40%;
+        left:                               10%;
+    }
+
+    .contact-textarea {
+        height:                             25%;
+        width:                              70%;
+        top:                                55%;
+        left:                               10%;
+    }
+
+    .contact-button {
+        height:                             7%;
+        width:                              75%;
+        top:                                85%;
+        left:                               7.5%;
+    }
+}

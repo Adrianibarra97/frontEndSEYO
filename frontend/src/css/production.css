@@ -1,59 +1,86 @@
 .production-container {
-    display: flex;
-    height: 100%;
-    width: 100%;
-    background: #222;
-    color: #fff;
+    display:                            flex;
+    height:                             100%;
+    width:                              100%;
+    z-index:                            0;
+    background-color:                 rgb(14, 14, 14);
+    color:                            rgb(255, 255, 255);
 }
 
 .production-section {
-    position: absolute;
-    height: 25%;
-    width:  25%;
-    background-color: red;
+    position:                           absolute;
+    height:                             35%;
+    width:                              25%;
+    z-index:                            50;
+    overflow:                           hidden;
+}
+
+.concealer {
+    position:                           absolute;
+    top:                                30%;
+    left:                               0;
+    height:                             70%;
+    width:                              100%;
+    background-color:                 rgb(13, 13, 13);
+}
+
+.concealer:hover {
+    background:                       rgba(34, 34, 34, 0);
+    transition-duration:                1.5s;  
 }
 
 .divSecP1 {
-    top: 20%;
-    left: 5%;
+    top:                                20%;
+    left:                               5%;
 }
 
 .divSecP2 {
-    top: 20%;
-    left: 35%;
+    top:                                20%;
+    left:                               35%;
 }
 
 .divSecP3 {
-    top: 20%;
-    left: 65%;
+    top:                                20%;
+    left:                               65%;
 }
 
 .divSecP4 {
-    top: 60%;
-    left: 5%;
+    top:                                60%;
+    left:                               5%;
 }
 
 .divSecP5 {
-    top: 60%;
-    left: 35%;
+    top:                                60%;
+    left:                               35%;
 }
 
 .divSecP6 {
-    top: 60%;
-    left: 65%;
+    top:                                60%;
+    left:                               65%;
 }
 
 .production-section-h2 {
-    
-    background-color: blue;
+    display:                            flex;
+    width:                              100%;
+    height:                             auto;
+    font-size:                          1.7em;
+    z-index:                            100;
+    font-weight:                        bold;
+    justify-content:                    center;
 }
 
 .production-section-p {
-
-    background-color: green;
+    display:                            flex;
+    z-index:                            100;
 }
 
 
 @media screen and (max-device-width: 991px) {
+    .production-section-h2 {
+        font-size:                          1em;
+    }
 
+    .production-section-p {
+        font-size:                          1em;
+    }
 }

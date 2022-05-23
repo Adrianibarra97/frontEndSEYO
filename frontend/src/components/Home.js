@@ -6,7 +6,6 @@ import {
   CarouselIndicators,
   CarouselCaption
 } from 'reactstrap';
-
 import 'bootstrap/dist/css/bootstrap.min.css';
 import '../css/home.css';
 

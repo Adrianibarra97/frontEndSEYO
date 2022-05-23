@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
-
 import '../css/footer.css';
 
 export class Footer extends Component {
@@ -14,10 +13,10 @@ export class Footer extends Component {
                 <p className="footer-p name pdev1">Website developed by</p>
                 <p className="footer-p pdev2">Adrian Ibarra</p>
                 <ul className="footer-ul">
-                    <Link class="fab fa-facebook-f footer-link btn btn-secondary" to="/production" />
-                    <Link class="fab fa-twitter footer-link btn btn-secondary" to="/production" />
-                    <Link class="fab fa-instagram footer-link btn btn-secondary" to="/production" />
-                    <Link class="fab fa-youtube footer-link btn btn-secondary" to="/production" />
+                    <Link className="fab fa-facebook-f footer-link btn btn-secondary" to="/production" />
+                    <Link className="fab fa-twitter footer-link btn btn-secondary" to="/production" />
+                    <Link className="fab fa-instagram footer-link btn btn-secondary" to="/production" />
+                    <Link className="fab fa-youtube footer-link btn btn-secondary" to="/production" />
                 </ul>
             </div>
         );
