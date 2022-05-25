@@ -3,7 +3,7 @@ import axios from 'axios';
 import '../css/clients.css';
 
 export class Clients extends Component {
-    state ={
+    state = {
         clients: []
     }
 
@@ -34,11 +34,11 @@ export class Clients extends Component {
                         <div className="div-client" key={index}>
                             <div className="div-client-concealer">
                                 <div className="div-concealer-image">
-                                    {client.image}
+                                    <img src={client.image} alt={client.name}/>
                                 </div>
-                                <p className="div-concealer-score">
-                                    {client.score}
-                                </p>
+                                <div className="div-concealer-score">
+                                    SCORE{/* {client.score} */}
+                                </div>
                             </div>
                             <h3 className="div-client-h3">
                                 {client.name}

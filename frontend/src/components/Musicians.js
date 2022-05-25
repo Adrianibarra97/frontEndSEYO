@@ -34,7 +34,7 @@ export class Musicians extends Component {
                 {
                     this.musicians().map((musician, index) => 
                         <div className="div-musician" key={index}>
-                            <div className="div-musician-concealer">
+                            <div className="div-musician-face face1">
                                 <div className="div-musician-image">
                                     {musician.image}
                                 </div>
@@ -42,15 +42,17 @@ export class Musicians extends Component {
                                     {musician.name}
                                 </h3>
                             </div>
-                            <Link className="div-musician-p-instagram" to="/">
-                                {musician.instagram}
-                            </Link>
-                            <p className="div-musician-p-category">
-                                {musician.category}
-                            </p>
-                            <p className="div-musician-p-jobs">
-                                {musician.jobs}
-                            </p>
+                            <div className="div-musician-face face2">
+                                <Link className="div-musician-link-instagram" to="/">
+                                    {musician.instagram}
+                                </Link>
+                                <p className="div-musician-p-category">
+                                    {musician.category}
+                                </p>
+                                <p className="div-musician-p-jobs">
+                                    {musician.jobs}
+                                </p>
+                            </div>
                         </div>
                     )
                 }
